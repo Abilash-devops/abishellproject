@@ -46,5 +46,3 @@ validate $? "start service"
 mysql_secure_installation --set-root-pass RoboShop@1 &>> $LOGFILE
 
 validate $? "set password"
-
-mysql -uroot -pRoboShop@1 &>> $LOGFILE
