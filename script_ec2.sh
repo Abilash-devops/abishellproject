@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAMES=("mongodb" "mysql" "redis" "rebbitmq" "catalogue" "user" "cart" "shippig" "payment" "dispatch" "web")
+NAMES=("dev" "QA" "preprod" "prod")
 
 for i in "${NAMES[@]}"
 do
