@@ -20,9 +20,9 @@ do
 
     aws route53 change-resource-record-sets --hosted-zone-id Z07575063UROBJWYQYSPQ --change-batch '
     {
-            "Comment": "CREATE a record ",
+            "Comment": "Update a record ",
             "Changes": [{
-            "Action": "CREATE",
+            "Action": "UPSERT",
                         "ResourceRecordSet": {
                                     "Name": "'$i'.'$DOMAIN_NAME'",
                                     "Type": "A",
